@@ -1,0 +1,11 @@
+server:
+  port: 8011
+
+spring:
+  rabbitmq:
+    username: admin
+    password: admin
+    host: 192.168.0.177
+    port: 5672
+  application:
+    name: spring-boot-rabbit-test
